@@ -1,0 +1,22 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "Toy Robot Challenge",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Kelvin Chua",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
